@@ -22,7 +22,6 @@ class Server
 		//Establecer rutas
 		this.routes();
 
-
 	}
 
 	middlewares()
