@@ -15,7 +15,6 @@ const roleValidator = async(rol='')=>
 
 const existEmailValidator = async(correo,{req=request})=>
 {
-	console.log(req.method)
 	if(req.method === "PUT")
 	{
 		const {id:idParams}=req.params
